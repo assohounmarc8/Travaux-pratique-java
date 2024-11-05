@@ -16,8 +16,8 @@ Cette application console permet à une entreprise de location de gérer son par
 Le projet est organisé en plusieurs classes principales :
 
 - "Vehicule" : Classe de base abstraite représentant un véhicule.
-  - **Attributs** : `immatriculation`, `marque`, `modele`, `anneeService`, `kilometrage`, `estLoue`.
-  - **Méthodes** : `calculerPrixLocation()` (méthode abstraite pour le calcul du prix de location), `isDisponible()`.
+  - "Attributs" : `immatriculation`, `marque`, `modele`, `anneeService`, `kilometrage`, `estLoue`.
+  - "Méthodes" : `calculerPrixLocation()` (méthode abstraite pour le calcul du prix de location), `isDisponible()`.
 
 - `Voiture` : Sous-classe de `Vehicule` représentant les voitures, avec des attributs spécifiques (`nombrePlaces`, `typeCarburant`).
 - `Camion` : Sous-classe de `Vehicule` représentant les camions, avec des attributs spécifiques (`capaciteChargement`, `nombreEssieux`).
